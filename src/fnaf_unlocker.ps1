@@ -6,8 +6,9 @@ if (-NOT(Test-Path $env:appdata\MMFApplications)){
 }
 
 foreach ($i in $files){
-    $url = "https://raw.githubusercontent.com/LunzRh/Fnaf-save-cheat/main/fnaf-saves/" + $i
+    	$url = "https://raw.githubusercontent.com/LunzRh/Fnaf-save-cheat/main/fnaf-saves/" + $i
 	Invoke-WebRequest -Uri $url -OutFile $i
 	Move-Item $i $env:appdata\MMFApplications\ -Force
 }
+
 Write-Output " > Done."
