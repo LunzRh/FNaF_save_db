@@ -9,6 +9,9 @@ Set-ExecutionPolicy remotesigned
 
 # For Deactivate
 Set-ExecutionPolicy Restricted
+
+# If the options above don't work try this
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
 # A cool thing to do...
