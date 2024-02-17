@@ -1,4 +1,4 @@
-# FNaF-save-cheat
+# FNaF_save_db
 This script developed in Powershell takes the modified save of FNaF 1, 2, 3, 4 and Sister Location and put into %appdata%\MMFApplications directory.
 
 > If you will use the script, remember to activate Powershell script execution on your Windows.
